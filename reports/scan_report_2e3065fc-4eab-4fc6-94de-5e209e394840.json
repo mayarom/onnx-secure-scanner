@@ -1,0 +1,53 @@
+{
+  "file_id": "2e3065fc-4eab-4fc6-94de-5e209e394840",
+  "file_path": "C:\\Users\\maya5\\Desktop\\Scanner_implement\\cait_xxs36_224_Opset18.onnx",
+  "file_size_bytes": 69495263,
+  "scan_time": "2025-03-30T10:06:25.538771",
+  "scan_status": "COMPLETED",
+  "is_anomaly": false,
+  "vulnerability_counts": {
+    "total": 0,
+    "by_type": {},
+    "by_certainty": {
+      "PROVEN": 0,
+      "SUSPECTED": 0
+    }
+  },
+  "metadata": {
+    "model_ir_version": "8",
+    "producer_name": "pytorch",
+    "producer_version": "2.1.0",
+    "domain": "",
+    "graph_name": "main_graph",
+    "doc_string": "",
+    "node_count": 1758,
+    "input_count": 1,
+    "output_count": 1,
+    "operators_used": [
+      "Expand",
+      "Mul",
+      "Softmax",
+      "Slice",
+      "Constant",
+      "Conv",
+      "Concat",
+      "Erf",
+      "MatMul",
+      "Gather",
+      "Gemm",
+      "Transpose",
+      "Where",
+      "Shape",
+      "ConstantOfShape",
+      "Equal",
+      "LayerNormalization",
+      "Add",
+      "Reshape",
+      "Sqrt",
+      "Cast",
+      "Unsqueeze",
+      "Div"
+    ]
+  },
+  "vulnerabilities": []
+}
